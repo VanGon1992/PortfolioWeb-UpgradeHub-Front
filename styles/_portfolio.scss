@@ -1,0 +1,75 @@
+/*Seccion Portfolio*/
+
+#portfolio {
+    background-image: $imagen-fondo;
+    background-position: center center;
+    background-size: cover;
+    height: 80rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    #img1 {
+        height: 20rem;
+        width: 60%;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        background-image: url(../img/EscuelaDiseño.jpg);
+        background-position: center center;
+        background-size: cover;
+        box-shadow: 1rem 1rem 3rem #666;
+    }
+    div {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        #img2 {
+            height: 42rem;
+            width: 50%;
+            margin-right: 2rem;
+            background-image: url(../img/IlustracionHogar.jpg);
+            background-position: center center;
+            background-size: cover;
+            box-shadow: 1rem 1rem 3rem #666;
+        }
+        div {
+            width: 50%;
+            flex-direction: column;
+            #img3 {
+                height: 20rem;
+                width: auto;
+                margin-bottom: 2rem;
+                background-image: url(../img/FiestasBailaora.jpg);
+                background-position: center center;
+                background-size: cover;
+                box-shadow: 1rem 1rem 3rem #666;
+            }
+            #img4 {
+                height: 20rem;
+                width: auto;
+                background-image: url(../img/VinoFrades.jpg);
+                background-position: center center;
+                background-size: cover;
+                box-shadow: 1rem 1rem 3rem #666;
+            }
+        }
+    }
+    #botonProyectos {
+        background-color: $color-principal;
+        padding: 1.5rem 3rem;
+        margin: 3rem;
+        font-family: 'Nunito_Bold';
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        border-radius: 1rem;
+        border: none;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        &:hover {
+            background-color: red;
+            transition: 0.4s;
+        }
+    }
+}

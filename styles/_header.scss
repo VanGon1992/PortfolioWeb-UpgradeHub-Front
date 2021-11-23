@@ -1,0 +1,61 @@
+/*Menu Nav*/
+
+header {
+    height: 6rem;
+    width: 100%;
+    background-color: $color-principal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img {
+        height: 3rem;
+        width: auto;
+    }
+    #idioma {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin-right: 1rem;
+        }
+        img {
+            height: 1.3rem;
+            width: auto;
+        }
+    }
+    nav {
+        a {
+            margin-right: 5rem;
+            text-decoration: none;
+            font-family: 'Nunito_Bold';
+            font-size: 0.7rem;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            &:hover {
+                color: red;
+                transition: ease-in 0.2s;
+            }
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+/*Portada*/
+
+#portada {
+    background-image: $imagen-fondo;
+    background-position: center center;
+    background-size: cover;
+    height: 30rem;
+    img {
+        height: 12rem;
+        width: auto;
+        margin-top: 16rem;
+        margin-left: 2rem;
+    }
+}

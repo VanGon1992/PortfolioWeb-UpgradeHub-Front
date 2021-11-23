@@ -1,0 +1,48 @@
+/*Seccion Sobre Mi*/
+
+#sobreMi {
+    background-color: $color-principal;
+    height: 35rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #foto {
+        img {
+            border-radius: 100rem;
+            border: 0.3rem solid red;
+            height: 25rem;
+            width: auto;
+            margin-right: 8rem;
+        }
+    }
+    #parrafo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        h2 {
+            font-size: 1.5rem;
+            color: white;
+            flex-direction: column;
+            font-family: 'Nunito_Bold';
+            letter-spacing: 0.1rem;
+        }
+        hr {
+            align-items: left;
+            width: 4rem;
+            height: 0.05rem;
+            margin-bottom: 2rem;
+            margin-left: 0;
+        }
+        p {
+            font-size: 1rem;
+            color: white;
+            width: 30rem;
+            text-align: justify;
+            font-family: 'Nunito_Bold';
+            line-height: 1.5rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+}

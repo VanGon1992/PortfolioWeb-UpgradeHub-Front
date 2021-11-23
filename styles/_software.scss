@@ -1,0 +1,62 @@
+ /*Software*/
+ 
+ #software {
+     background-image: $imagen-fondo;
+     background-position: center bottom;
+     background-size: cover;
+     height: 40rem;
+     width: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     #listaSoftware {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         height: 30rem;
+         width: 70rem;
+         border: 0.3rem solid red;
+         border-radius: 3rem;
+         background-color: white;
+         h2 {
+             font-size: 1.5rem;
+             color: black;
+             font-family: 'Nunito_Bold';
+             letter-spacing: 0.1rem;
+         }
+         hr {
+             width: 4rem;
+             height: 0.2rem;
+             margin-bottom: 4rem;
+             border: none;
+             background-color: black;
+         }
+         .programas1,
+         .programas2 {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 85%;
+             height: auto;
+             margin-bottom: 2rem;
+             .programa {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 flex-direction: column;
+                 width: 13rem;
+                 p {
+                     color: black;
+                     letter-spacing: 0.1rem;
+                     font-family: 'Nunito_Bold';
+                 }
+                 img {
+                     height: 3rem;
+                     width: auto;
+                 }
+             }
+         }
+     }
+ }

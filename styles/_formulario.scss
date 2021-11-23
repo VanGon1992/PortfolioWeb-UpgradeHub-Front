@@ -1,0 +1,122 @@
+/*Contacto*/
+
+#contacto {
+    background-color: rgb(44, 44, 44);
+    height: 110rem;
+    font-family: 'Nunito_Light';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        margin: 0;
+        color: white;
+    }
+    #formulario {
+        width: 75%;
+        letter-spacing: 0.1rem;
+        padding: 5rem;
+        fieldset {
+            padding: 3rem;
+            border: 0.1rem solid white;
+            border-radius: 3rem;
+            legend {
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: white;
+            }
+            label {
+                font-size: 1rem;
+                font-weight: 600;
+                display: block;
+                color: white;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    p {
+        color: white;
+    }
+    #botonEnviar {
+        height: auto;
+        width: 8rem;
+        background-color: #f0f0f0;
+        color: black;
+        padding: 1.2rem;
+        font-family: 'Nunito_Bold';
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        border-radius: 0.8rem;
+        border: none;
+        margin-left: 53rem;
+        &:hover {
+            background-color: red;
+            color: white;
+            transition: 0.4s;
+        }
+    }
+}
+
+.input-button {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.formaContacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+hr {
+    background-color: white;
+    width: 65%;
+    margin-bottom: 3rem;
+    border: 0.05rem solid white;
+}
+
+#infoContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #mapa {
+        margin-right: 4rem;
+    }
+    #infoPersonal {
+        font-family: 'Nunito_Bold';
+        letter-spacing: 0.1rem;
+    }
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: $color-principal;
+    height: 20rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    img {
+        height: 2.3rem;
+        width: auto;
+        margin-right: 1rem;
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

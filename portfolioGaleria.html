@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Galeria</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/LogoZa.png" alt="Logo Za" />
+        </div>
+        <nav>
+            <a href="file:///D:/UpGrade%20Hub/Proyecto%20Web%202%20-%20Portfolio/index.html#sobreMi">Sobre mí</a>
+            <a href="file:///D:/UpGrade%20Hub/Proyecto%20Web%202%20-%20Portfolio/index.html#software">Software</a>
+            <a href="file:///D:/UpGrade%20Hub/Proyecto%20Web%202%20-%20Portfolio/index.html#experiencias">Experiencia</a>
+            <a href="file:///D:/UpGrade%20Hub/Proyecto%20Web%202%20-%20Portfolio/index.html#portfolio">Portfolio</a>
+            <a href="file:///D:/UpGrade%20Hub/Proyecto%20Web%202%20-%20Portfolio/index.html#contacto">Contacto</a>
+        </nav>
+        <div id="idioma">
+            <p>ESP</p>
+            <img src="img/Bandera ESP.png" alt="Bandera ESP" />
+        </div>
+    </header>
+
+    <main>
+        <section id="portfolioGaleria">
+            <br>
+            <br>
+            <div id="galeria">
+                <div class="proyecto">
+
+                    <img src="img/EscuelaDiseño.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 1</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/FiestasBailaora.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 2</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/IlustracionHogar.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 3</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/TabernaAndaluza.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 4</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/VinoFrades.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 5</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/WebGeff.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 6</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/Meteor.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 7</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/FengSui.jpg" alt="">
+                    <div class="overlay">
+                        <p>Proyecto 8</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contacto">
+        <form id="formulario">
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input class="input-button" type="text" id="nombre" placeholder="Su Nombre" required />
+
+                <label for="email">E-mail:</label>
+                <input class="input-button" type="email" id="email" placeholder="Su correo electrónico" required />
+
+                <label for="telefono">Teléfono</label>
+                <input class="input-button" type="tel" id="telefono" placeholder="Su telefono" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="input-button" id="mensaje" placeholder="Su Mensaje"></textarea>
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+                <legend>Contacto</legend>
+
+                <p>Como desea recibir información:</p>
+
+                <div class="formaContacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono" id="telefono" />
+
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo" />
+                </div>
+            </fieldset>
+
+            <br />
+            <br />
+
+            <button type="submit" class="button-send" id="botonEnviar">
+          Enviar
+        </button>
+        </form>
+
+        <hr />
+
+        <section id="infoContacto">
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.267490856203!2d-3.936639448757795!3d40.57985067924505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4177c51ce02ec3%3A0x60254c81d0a6ea59!2sC.%20Federico%20del%20Cerro%2C%2016%2C%2028250%20Torrelodones%2C%20Madrid!5e0!3m2!1ses!2ses!4v1636637087856!5m2!1ses!2ses"
+                    width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div id="infoPersonal">
+                <p>Gonzalo Mansilla - Diseño Gráfico y Desarrollo FrontEnd</p>
+                <p>Dirección: C/Federico del Cerro nº16</p>
+                <p>E-mail: gonzalo.mansill@gmail.com</p>
+                <p>Tlf: 682 208 844</p>
+                <p>Cod.Post: 28250 Torrelodones, Madrid</p>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <hr />
+        <div>
+            <img src="img/Iconos RRSS-Face.png" alt="Facebook" />
+            <img src="img/Iconos RRSS-Insta.png" alt="Instagram" />
+            <img src="img/Iconos RRSS-Twitter.png" alt="Twitter" />
+        </div>
+        <div>
+            <p>Todos los Derechos Reservados&copy;</p>
+        </div>
+    </footer>
+</body>
+
+</html>

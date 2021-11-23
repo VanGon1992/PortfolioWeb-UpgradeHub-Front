@@ -1,0 +1,43 @@
+/*General*/
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+/*Paginas Importadas*/
+
+@import './variables';
+@import './header';
+@import './sobreMi';
+@import './software';
+@import './experiencia';
+@import './portfolio';
+@import './portfolioGaleria';
+@import './formulario';
+;
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Nunito_Bold';
+    src: url(../fonts/Nunito/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito_Light';
+    src: url(../fonts/Nunito/Nunito-Light.ttf);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}

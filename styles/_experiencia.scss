@@ -1,0 +1,53 @@
+/*Seccion Experiencia*/
+
+#experiencias {
+    background-color: $color-principal;
+    height: 36rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Nunito_Bold';
+        letter-spacing: 0.1rem;
+    }
+    hr {
+        width: 4rem;
+        height: 0.05rem;
+        margin-bottom: 4rem;
+    }
+    #listaExperiencia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        .experiencia {
+            height: 20rem;
+            width: 25%;
+            margin-right: 5rem;
+            border: 0.3rem solid red;
+            border-radius: 3rem;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            &:last-child {
+                margin: 0;
+            }
+            h2 {
+                font-family: 'Nunito_Bold';
+                color: white;
+            }
+            p {
+                text-align: center;
+                color: white;
+                letter-spacing: 0.1rem;
+                font-family: 'Nunito_Light';
+            }
+        }
+    }
+}
